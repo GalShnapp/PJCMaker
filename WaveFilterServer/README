@@ -1,0 +1,24 @@
+Project Name
+
+Paliani WaveFilterServer
+
+///////////////////////////////////////////////////////////////////////////////
+Installation
+
+just make sure nodejs is installed on this PC.
+use NPM to download all required modules.
+run Main.
+
+///////////////////////////////////////////////////////////////////////////////
+History
+
+First version.
+Mokk server running with fs
+line function working expet for silnced points.
+QR function recives QR and outputs GIF DATA
+
+///////////////////////////////////////////////////////////////////////////////
+License
+
+buh.
+
