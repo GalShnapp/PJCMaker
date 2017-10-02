@@ -81,7 +81,6 @@ class Communicator implements Runnable {
             
             // writes str in the socket and read
             out.println(this.PathOut);
-            int i = 1;
             
             String[] res = in.readLine().split(" ");
             BPin = res[0];
