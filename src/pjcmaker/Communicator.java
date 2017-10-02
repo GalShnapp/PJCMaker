@@ -21,8 +21,7 @@ class Communicator implements Runnable {
     Socket sock = null;
     private static final Communicator comm = new Communicator();
     private String PathOut;
-    private final String[] serviceArgs = {"node",
-        ""};
+    private final String[] serviceArgs = {"node", ""};
     private final String host = "127.0.0.1";
     private final int port = 6969;
     GUI gui = null;

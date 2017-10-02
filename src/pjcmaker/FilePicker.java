@@ -124,13 +124,12 @@ public class FilePicker extends javax.swing.JPanel  {
     private void BrowseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BrowseButtonActionPerformed
         fc = new JFileChooser();
         String[] extensions = {"PNG"};
-        FileFilter filter = new FileNameExtensionFilter("PNG, and the other one", extensions);
+        FileFilter filter = new FileNameExtensionFilter("PNG", extensions);
         fc.setFileFilter(filter);
         int returnVal = fc.showOpenDialog(this);
         if(returnVal == JFileChooser.APPROVE_OPTION){
             PathTextArea.setText(fc.getSelectedFile().getAbsolutePath());
             PreviewArea.setIcon(new ImageIcon(fc.getSelectedFile().getAbsolutePath()));
-            SubmitButton.setEnabled(true);
             Pbar.setVisible(true);
             SubmitButton.setEnabled(true);
         }
